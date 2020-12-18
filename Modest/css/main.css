@@ -1,0 +1,149 @@
+body {
+  min-width: 1170px;
+  font: 16px "Open Sans", sans-serif;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+a {
+  color: #23b7a4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  display: block;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+header {
+  background: #1d2126;
+}
+.header-wrapper,
+.gallery-text,
+.content-wrapper {
+  width: 1140px;
+  margin: auto;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 21px 32px 0;
+}
+nav {
+  width: 626px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav li {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+nav li a {
+  color: #a4aead;
+  border: 2px solid transparent;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+nav li .active:only-child {
+  color: #23b7a4;
+  border: 2px solid #23b7a4;
+  border-radius: 3px;
+}
+nav li a:hover {
+  border: 2px solid #5b6168;
+  color: #a4aead;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.gallery-wrapper img {
+  width: 100%;
+}
+.gallery-wrapper {
+  position: relative;
+  margin-bottom: 80px;
+}
+.gallery-text {
+  width: 654px;
+  margin: auto;
+  position: absolute;
+  left: calc(50% - 570px);
+  bottom: 0;
+}
+.gallery-text h1 {
+  font: 700 36px "Quattrocento Sans", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+.gallery-text span {
+  display: block;
+  color: #ffffff;
+  padding-top: 30px;
+}
+.gallery-text ul {
+  padding-top: 40px;
+  margin-bottom: 250px;
+}
+.gallery-text li {
+  float: left;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 12px 22px;
+  margin-right: 11px;
+  font: 14px "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+}
+.gallery-text li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.gallery-text li:hover {
+  background: #23b7a4;
+  border: 2px solid #23b7a4;
+}
+.content {
+  width: 654px;
+  float: left;
+}
+.content h2 {
+  color: #292f36;
+  font: 700 36px "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -1.5px;
+  margin-bottom: 61px;
+}
+.content h2:before {
+  content: "";
+  border-left: 10px solid #e1e6ea;
+  margin-right: 14px;
+}
+.content p {
+  color: #8d8f92;
+  line-height: 26px;
+  margin-bottom: 36px;
+}
+.content p span {
+  font-weight: 700;
+}
+.content ul {
+  width: 304px;
+  display: flex;
+  justify-content: space-between;
+}
+.content li a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: #c8cdd0;
+}
